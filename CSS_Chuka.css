@@ -1,0 +1,149 @@
+*{
+    font-family: 'Macondo', 'Pontano Sans',sans-serif;
+    
+  }
+  body, html{
+    background-color: #eaeaea;
+    
+    
+  }
+
+  nav {
+      padding: 25px;
+      background-color: orangered;
+      opacity: 0.90;
+      margin-top: 0px;
+      padding-top: 2px;
+      padding-bottom: 2px;
+      border-radius: 0px;
+    }
+    
+    a {
+        display: inline-block;
+        width: 150px;
+        padding: 0 0.1rem;
+        text-decoration: none;
+        font-size: 16px;
+        color: white;
+        background-color: orangered;
+        border-radius: 4px;
+       
+      }
+      .code_lanch li {
+        display: inline-block;
+        border-radius: 5px;
+        margin-right: 25px;
+        text-align: center;
+        padding-top: 0px;
+      }
+      .name{
+        text-align: center;
+        text-shadow: 4px 4px 0 goldenrod;
+        font-size: x-large;
+      }
+       .pro_fessional,.ski_lls{
+        margin: 50px 100px;
+        text-align: justify;
+        font-size: x-large;
+      }
+      #de_gree{
+        margin: 50px 100px;
+        text-align: justify;
+        font-size: x-large;
+        
+      }
+
+      footer{
+        background-color: OrangeRed;
+        padding: 0 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        color: white;
+        opacity: 0.90;
+      
+        
+      }
+      a:hover {
+        text-decoration: none;
+        color: palevioletred;
+      }
+      h2, .p1, .p2, .p3, .p4, .p5 {
+        margin: 50px 100px;
+        text-align: justify;
+        font-size: x-large;
+        
+      }
+
+
+      p, h2, h1, a {
+        animation-duration: 5s;
+        animation-name: slidein;
+        
+      }
+      
+      @keyframes slidein {
+        from {
+          margin-left: 100%;
+          width: 300%;
+          
+        }
+      
+        to {
+          margin-left: 0%;
+          width: 100%;
+        }
+        
+      }
+  #fortuneButton{
+    background-color: #1D1;
+    color: #fff;
+    border: 2px solid #12dd23;
+    border-radius: 10px;
+    margin: 50px 100px;
+    padding: 15px;
+    text-shadow: 0 -2px #006bb3;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2), 0px -2px 2px rgba(255, 255, 255, 0.5) inset, 0 2px 2px rgba(255, 255, 255, 0.8) inset;
+    background: #1D1;
+    background: linear-gradient(#1D1, #0ebc0e);
+    text-shadow: 0 -2px #0c960c;
+        
+      }
+
+  #fortuneButton:hover {
+        background-color: #0c960c;
+        transition: background-color .15s, font-size .15s;
+        font-size: 18px;
+      }
+  #secret-button{
+    border: 2px solid #0c960c;
+    border-radius: 5px;
+    color: #F8F8F8;
+    text-shadow: 0 -2px #006bb3;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2), 0px -2px 2px rgba(255, 255, 255, 0.5) inset, 0 2px 2px rgba(255, 255, 255, 0.8) inset;
+    background: #1D1;
+    background: linear-gradient(#1D1, #0ebc0e);
+    text-shadow: 0 -2px #0c960c;
+    margin: 50px 100px;
+    padding: 10px;
+      }
+
+  #secret-button:hover {
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1), 0px -2px 2px rgba(255, 255, 255, 0.25) inset, 0 2px 2px rgba(255, 255, 255, 0.4) inset;
+    background: #0ebc0e;
+    background: linear-gradient(#0ebc0e, #0c960c);
+    border-color: #064f06;
+      }
+      
+      
+      #secret-p, #motivation-p, #list, #pfortune{
+        margin: 50px 100px;
+        font-size: 1.5rem;
+
+      }
+      
+      
+      
+
+      
+      
