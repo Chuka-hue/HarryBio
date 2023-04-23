@@ -1,2 +1,2 @@
 # HarryBio
-This is like an auto-biography of me
+This project is an auto-biography of me
